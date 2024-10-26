@@ -21,11 +21,11 @@ MainWindow::MainWindow(QWidget *parent)
     createCoef = new QPushButton("Добавить корень", this);
     createCoef->setGeometry(setCoefsX+35, setCoefsY+30, 110, 20);
 
-    changeCoefButton = new QPushButton("Изменить корень под индексом", this);
-    changeCoefButton->setGeometry(setCoefsX+35, setCoefsY+50, 110, 20);
+    changeCoefButton = new QPushButton("Изм. корень под индексом", this);
+    changeCoefButton->setGeometry(setCoefsX, setCoefsY+50, 165, 20);
 
     changeCoefIndex = new QLineEdit("0", this);
-    changeCoefIndex->setGeometry(setCoefsX+150, setCoefsY+50, 30, 20);
+    changeCoefIndex->setGeometry(setCoefsX+170, setCoefsY+50, 30, 20);
 
     nameAnRe = new QLabel("An: ", this);
     nameAnRe->setGeometry(setCoefsX+35, setCoefsY+90, 20, 20);
